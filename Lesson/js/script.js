@@ -28,7 +28,7 @@
 //   console.log("a", a);
 // }
 
-// let a = 0;
+// let a = 3;
 
 // while (a) console.log(a--);
 
@@ -43,8 +43,7 @@
 
 // let a = 0;
 
-// for (; a < 3; ) {
-//   a++;
+// for (let a = 0; a < 3; a++) {
 //   console.log(a);
 // }
 
@@ -53,9 +52,8 @@
 // let summ = 0;
 
 // while (true) {
-//   let value = +prompt("Введіть число");
+//   let value = Number(prompt("Введіть число"));
 //   if (!value) break;
-
 //   summ += value;
 // }
 
@@ -167,7 +165,7 @@
 //   { id: 3, name: "Orange" },
 // ];
 
-// console.log(fruts.find((item) => item.id === 1));
+// console.log(fruts.find((item) => item.id === 2));
 
 // console.log(fruts.filter((item) => item.id < 2));
 
@@ -179,8 +177,9 @@
 // let names = "Оля, Юля, Аня, Петя";
 
 // let arr = names.split(", ");
+// console.log(arr)
 
-// let newString = arr.join(", ");
+// let newString = arr.join(" + ");
 
 // console.log(newString);
 
